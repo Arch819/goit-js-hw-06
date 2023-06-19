@@ -22,6 +22,7 @@ function createBoxes(amount) {
 
 function destroyBoxes() {
   divBoxes.innerHTML = "";
+  inputNumber.value = "";
   width = 30;
   height = 30;
 }
